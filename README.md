@@ -274,7 +274,7 @@ end
 Here again, much of the functionality you need is built into our helper methods
 &mdash; don't forget to use them!
 
-Run the tests for the `#play` method by typing `rspec spec/02_play_spec.rb` in
+Run the tests for the `#play` method by typing `bin/rspec spec/02_play_spec.rb` in
 your terminal.
 
 ## The CLI: `bin/tictactoe`
@@ -284,4 +284,4 @@ Your `bin/tictactoe` CLI should:
 1. Instantiate an instance of `TicTacToe`
 2. Start the game by calling `#play` on that instance.
 
-Run the tests by typing `rspec spec/03_cli_spec.rb` in your terminal.
+Run the tests by typing `bin/rspec spec/03_cli_spec.rb` in your terminal.

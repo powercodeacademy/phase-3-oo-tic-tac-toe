@@ -1,4 +1,10 @@
 source "https://rubygems.org"
 
-gem 'rspec'
-gem 'pry'
+ruby "3.3.5"
+gem "fiddle"
+gem "logger"
+gem "ostruct"
+gem "pry"
+gem "rspec"
+gem "rubocop-rspec", "~> 3.7"
+gem "rubocop", "~> 1.80"
